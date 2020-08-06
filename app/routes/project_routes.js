@@ -49,7 +49,7 @@ router.get('/projects', requireToken, (req, res, next) => {
 // GET /projects/5a7db6c74d55bc51bdf39793
 router.get('/projects/:id', requireToken, (req, res, next) => {
   // req.params.id will be set based on the `:id` in the route
-  Project.findById(req.params.id)
+  Project.findById(req.params.id).where('owner').equals(req.user._id)
     .populate('owner')
     .then(handle404)
     // if `findById` is succesful, respond with 200 and "project" JSON
