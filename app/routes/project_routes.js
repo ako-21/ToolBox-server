@@ -30,7 +30,8 @@ const router = express.Router()
 // INDEX
 // GET /projects
 router.get('/projects', requireToken, (req, res, next) => {
-  Project.find()
+  // const id = req.user._id
+  Project.find().where('owner').equals(req.user._id)
     .populate('owner')
     .then(projects => {
       // `projects` will be an array of Mongoose documents
