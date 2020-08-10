@@ -10,11 +10,11 @@ const projectSchema = new mongoose.Schema({
     required: true
   },
   budget: {
-    type: String,
+    type: Number,
     required: true
   },
   spent: {
-    type: String,
+    type: Number,
     required: true
   },
   owner: {
