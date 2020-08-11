@@ -6,27 +6,27 @@ ToolBox is an app that manages personal DIY projects. It allows users to create 
 
 ## Live Apps
 
-[Live Website] () | [Heroku Backend] ()
+[Live Website](https://ako-21.github.io/ToolBox-client/) | [Heroku Backend](https://damp-shelf-28430.herokuapp.com/)
 
 ### Client Repository
 
-[Client Repo Link] ()
+[Client Repo Link](https://github.com/ako-21/ToolBox-client)
 
 ### Backend Repository
 
-[Backend Repo Link] ()
+[Backend Repo Link](https://github.com/ako-21/ToolBox-server)
 
 ## Set Up Steps
 
 #### Client Repo
--fork and clone the client repo
--npm install to install dependencies
--npm start to start local development host
+- fork and clone the client repo
+- npm install to install dependencies
+- npm start to start local development host
 
 #### BackEnd Repo
--fork and clone the backend repo
--install dependencies with npm install
--start local server with npm run server
+- fork and clone the backend repo
+- install dependencies with npm install
+- start local server with npm run server
 
 ## Restful API Built with Express
 
@@ -85,35 +85,35 @@ The biggest part of planning was scaling down the big picture to a minimum viabl
 ## Technologies
 
 #### BackEnd
--Express API
--Mongoose
--MongoDB
--Node.js
--javaScript
--Curl
--Heroku
+- Express API
+- Mongoose
+- MongoDB
+- Node.js
+- javaScript
+- Curl
+- Heroku
 
 #### FrontEnd
--Axios
--React
--Bootstrap
--javaScript
--CSS
+- Axios
+- React
+- Bootstrap
+- javaScript
+- CSS
 
 ### Wireframe
-![ToolBox Wireframe] (https://i.imgur.com/kRnK8Ca.jpg)
+![ToolBox Wireframe](https://i.imgur.com/kRnK8Ca.jpg)
 
 ### User Relationships
-![ToolBox ERD] (https://i.imgur.com/Fv893SR.jpg)
+![ToolBox ERD](https://i.imgur.com/Fv893SR.jpg)
 
 ### User Stories
--As a user, I want to be able to Sign-up
--As a user, I want to be able to Sign-in to access my account
--As a user, I want to Change-Pw and Sign-out from my app
--As a user, I want to be able to create projects with names, descriptions, budgets, and amount spent.
--As a user, I want to see all of my active projects, the date created, and spending information
--As a user, I want to be able to update a project,
--As a user, I want to be able to delete a project
+- As a user, I want to be able to Sign-up
+- As a user, I want to be able to Sign-in to access my account
+- As a user, I want to Change-Pw and Sign-out from my app
+- As a user, I want to be able to create projects with names, descriptions, budgets, and amount spent.
+- As a user, I want to see all of my active projects, the date created, and spending information
+- As a user, I want to be able to update a project,
+- As a user, I want to be able to delete a project
 
 ## Issues and Upgrades
 Phase 1 is working great without any issues. For phase 2, I plan to create more attributes and resources linked to Projects to add more meticulous management features. For example, I plan to add Project phases with specific todos that can be created, updated, completed, and deleted.
