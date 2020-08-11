@@ -6,11 +6,11 @@ ToolBox is an app that manages personal DIY projects. It allows users to create 
 
 ## Live Apps
 
-[Live Website](https://ako-21.github.io/ToolBox-client/) | [Heroku Backend](https://damp-shelf-28430.herokuapp.com/)
+[Live Website](https://ako-21.github.io/toolbox-client/) | [Heroku Backend](https://damp-shelf-28430.herokuapp.com/)
 
 ### Client Repository
 
-[Client Repo Link](https://github.com/ako-21/ToolBox-client)
+[Client Repo Link](https://github.com/ako-21/toolbox-client)
 
 ### Backend Repository
 
