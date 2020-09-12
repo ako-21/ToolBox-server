@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const inspirationSchema = require('./inspiration')
 
 const projectSchema = new mongoose.Schema({
   name: {
@@ -17,6 +18,7 @@ const projectSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  inspiration: [inspirationSchema],
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
