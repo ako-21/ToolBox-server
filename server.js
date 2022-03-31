@@ -34,6 +34,7 @@ mongoose.connect(db, {
   useCreateIndex: true,
   useUnifiedTopology: true
 })
+  .catch(err => console.log('this is the error.', err.stack))
 
 // instantiate express application object
 const app = express()
